@@ -1,0 +1,111 @@
+@charset "utf-8";
+body {
+	padding:0px;
+	margin:0px;
+	font-size:13px;
+}
+p,ul,li,h1,h2,h3,h4,h5,h6 {padding:0px; margin:0px;}
+ul,li {list-style:none;}
+img {border:0px;}
+body { margin:0px;font-family: Verdana, Geneva, sans-serif;font-size: 12px;color:#666666;}
+a {color:#666666;text-decoration: none;blr:expression(this.onFocus=this.blur());outline:none;}
+a:hover {text-decoration:none;color:#444444;}
+/*文本框*/
+.small_text {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	box-shadow: 2px 2px 2px #F0F0F0 inset;
+	color: #333333;
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 18px;
+	margin: 0;
+	padding:10px 4px;
+	vertical-align: middle;
+	width:80px;
+}
+/*按钮*/
+.btn_green {
+	border:0px solid gray;
+	padding:5px 30px;
+	margin:0px;
+	color:#fff;
+	font-weight:bold;
+	background:#43b015;
+	border-radius: 3px 3px 3px 3px;
+	cursor:pointer;
+}
+.btn_red {
+	border:0px solid gray;
+	padding:5px 30px;
+	margin:0px;
+	color:#fff;
+	font-weight:bold;
+	background:#F5487A;
+	border-radius: 3px 3px 3px 3px;
+	cursor:pointer;
+}
+.btn_red:hover {
+	border:0px solid gray;
+	padding:5px 30px;
+	margin:0px;
+	color:#fff;
+	font-weight:bold;
+	background:#F42460;
+	border-radius: 3px 3px 3px 3px;
+}
+.input_text {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	box-shadow: 2px 2px 2px #F0F0F0 inset;
+	color: #333333;
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 18px;
+	margin: 0;
+	padding: 10px 4px;
+	vertical-align: middle;
+	width:220px;
+}
+img {
+	vertical-align:middle;
+}
+.login_dialog_left {
+	float:left;
+	height:320px;
+	background-color:#fff;
+	width:60%;
+}
+.login_dialog_left h2 {
+	text-align:center;
+	background:none repeat scroll 0 0 #EFEFEF;
+	padding:16px;
+	font-family:"微软雅黑";
+	font-size:16px;
+	margin-top:0px;
+}
+.reg_dialog {
+	line-height:50px;
+}
+.login_dialog_right {
+	float:left;
+	height:320px;
+	text-align:center;
+	width:40%;
+	background:url("../images/login_regbg.html") no-repeat scroll -30px 150px transparent;
+	background-color:#f8f8f8;
+}
+.login_dialog_right h2 {
+	text-align:center;
+	background:none repeat scroll 0 0 #EDEDED;
+	padding:16px;
+	font-family:"微软雅黑";
+	font-size:16px;
+	margin-top:0px;
+}
+.login_dialog_form {
+	line-height:40px;
+	padding:10px 30px;
+}
+.login_dialog_form img{vertical-align:middle;}
+ 

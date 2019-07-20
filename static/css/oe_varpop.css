@@ -1,0 +1,162 @@
+@charset "utf-8";
+/**
+	[OElove] (C)2010-2099 phpcoo.com Inc.
+	This is not a freeware, use is subject to license terms
+	$Id: oe_varpop.css LastTime 2015.03.25 Powered by OEdev$
+*/
+body{font-size:12px;}
+body,form,li,ul,p,h1,h2,h3,h4,h5,h6,dl,dd,dt{border:none; list-style:none; margin:0px; padding:0px;}
+
+/*--------------------- varPop Begin [Powered by OElove] -------------------------*/
+.varpop-clear {
+	clear:both;
+}
+.varpop-shade{
+	display:none;position:fixed;width:100%;height:100%;
+	background:#333;z-index:110;top:0;left:0;
+	opacity:0.7;filter:alpha(opacity=70);overflow:hidden;
+}
+
+.varpop-layout {
+	margin:0 auto;
+	background:#fff;
+    display: none;
+    width:50%;
+	position:fixed;
+	z-index:120;
+	/*top:50%;left:50%;*/
+}
+
+.varpop-inner {
+	margin:0 auto;width:100%;
+}
+.varpop-inner h2 {
+	background: #fff4f6;
+    border-bottom: 1px solid #f4c6a8;
+    font-size: 14px;
+    line-height: 35px;
+    padding-left: 10px;
+	color:#f95200;
+}
+.varpop-inner h2 span {
+	cursor: pointer;
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+    padding-right: 10px;
+	color:#666;
+}
+
+
+.varpop-conn {
+	margin:0 auto;margin:15px;border-bottom:1px dashed #ddd;
+}
+.varpop-conn h3 {
+	line-height:30px;font-size:14px;font-weight:normal;
+	margin-bottom:10px;
+}
+.varpop-conn dl {
+	margin-bottom:10px;font-size:12px;width:100%;
+}
+.varpop-conn dl dt {
+	float:left;width:120px;line-height:28px;
+}
+.varpop-conn dl dd {
+	float:left;line-height:28px;
+}
+.varpop-conn dl dd .var-input-200 {
+	height:25px;padding:2px;border:1px solid #ddd;width:200px;
+}
+.varpop-conn dl dd .var-input-160 {
+	height:25px;padding:2px;border:1px solid #ddd;width:160px;
+}
+.varpop-conn dl dd .var-input-100 {
+	height:25px;padding:2px;border:1px solid #ddd;width:100px;
+}
+
+.varpop-conn ul li {
+	float:left;margin-bottom:10px;font-size:12px;width:50%;line-height:30px;text-align:center;
+}
+.varpop-conn ul li label {
+	margin-top:10px;display:block;text-align:center;
+}
+
+
+.i-blue {
+	font-style:normal;display:block;float:left;
+	background: url("../images/button/button-blue.html") no-repeat;
+    cursor: pointer; height: 29px; width: 86px; color:#ffffff;
+}
+.i-green {
+	font-style:normal;display:block;float:left;
+	background: url("../images/button/button-green.gif") no-repeat;
+    cursor: pointer; height: 29px; width: 86px; color:#ffffff;
+}
+
+.varpop-tips {
+	margin:0 auto;padding:0 15px 15px 15px;line-height:20px;
+}
+
+/*--------------------- varPop End [Powered by OElove] -------------------------*/
+
+
+/*---------------------- ToastShow Begin [Powered by OElove]----------------------*/
+.oe-toast {
+	margin:0 auto;
+	height:40px;
+	position:fixed;
+	bottom:110px;
+	z-index:101;
+	padding:10px;
+}
+.oe-toast span {
+	color:#fff;font-size:14px;
+	height:35px;line-height:35px;text-align:center;padding:10px;
+	border:1px solid #333;
+	box-shadow: 1px 1px 2px 1px #999;
+	border-radius: 6px;
+	background:#000;
+	opacity:0.8;filter:alpha(opacity=80);
+}
+/*-----------------------ToastShow End [Powered by OElove] ------------------------*/
+
+
+/*---------------------- ToastTips Begin [Powered by OElove]----------------------*/
+.oe_toasttips {
+	margin:0 auto;height:40px;position:fixed;bottom:110px;padding:10px;z-index:101;
+}
+.oe_toasttips span {
+	color:#fff;font-size:14px;height:35px;line-height:35px;text-align:center;padding:10px;
+	border:1px solid #333;box-shadow: 1px 1px 2px 1px #999;border-radius: 6px;background:#000;opacity:0.8;filter:alpha(opacity=80);
+}
+/*----------------------- ToastTips End [Powered by OElove] ------------------------*/
+
+
+/*---------------------- confirm µ¯´°Css Begin --------------------*/
+.oevar_confirm_layout {
+	margin:0 auto;
+	background:#fff;
+    /*display: none;*/
+    width: 85%;
+	position:fixed;
+	z-index:120;
+	/*top:50%;left:50%;*/
+}
+.oevar_confirm_layout h2 {
+	height:35px;line-height:35px;color:#4EC1FF;font-size:14px;
+	border-bottom:2px solid #4EC1FF;font-weight:normal;padding-left:10px;
+}
+.oevar_confirm_layout p {
+	padding:10px;line-height:25px;color:#666666;font-size:12px;
+}
+
+.oevar_confirm_list {
+	margin:0 auto; border-top:1px solid #ddd;overflow:hidden;height:35px;font-size:13px;
+}
+.oevar_confirm_list .oevar_confirm_lt {
+	float:left;width:50%;border-right:1px solid #ddd;text-align:center;height:35px;line-height:35px;cursor:pointer;
+}
+.oevar_confirm_list .oevar_confirm_rt {
+	float:left;width:40%;text-align:center;height:35px;line-height:35px;cursor:pointer;
+}
+/*---------------------- confirm µ¯´°Css End --------------------*/
