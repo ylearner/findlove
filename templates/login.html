@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div class="login_dialog_left">
+	<h2>会员登录</h2>
+	<div class="login_dialog_form">
+	  <table>
+		<tbody><tr>
+		  <td>帐号：</td>
+		  <td><input type="text" name="loginname" id="jd_loginname" class="input_text" value="用户名/邮箱"></td>
+		</tr>
+		<tr>
+		  <td>密码：</td>
+		  <td><input type="password" name="password" id="jd_password" class="input_text"></td>
+		</tr>
+				<tr>
+		  <td>验证码：</td>
+		  <td>
+		    <input type="text" class="small_text" id="jd_checkcode" name="checkcode" value="">
+			&nbsp;&nbsp;
+			<img id="jd_codeimg" src="/source/include/imagecode.php?act=verifycode" align="middle" title="点击换一张">
+		  </td>
+		</tr>
+				<tr>
+		  <td height="40"></td>
+		  <td style="line-height:20px;">
+		    <input type="button"  value="登 录">
+			&nbsp;&nbsp;&nbsp;<a href="/forget/" >忘记密码？</a>
+		  </td>
+
+
+		</tr>
+
+
+
+	</div>
+  </div>
+</body>
+</html>
